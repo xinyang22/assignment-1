@@ -1,18 +1,231 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    
- 
-    <title>my demowebsite</title>
-   </head>
-  
-   <body>
-  
-  
-    <h1><center>Main Menu</center></h1>
-     <center><h2>couselling services</h2></center>
-      <center><h4><a href=page7.html> Book a cousellor</a></h4></center>
-   <center><h4><a href=page12.html> Sercet conversation</a></h4></center>   
-   <!DOCTYPE html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  margin: 0 auto; /* Center website */
+  max-width: 800px; /* Max width */
+  padding: 20px;
+}
+
+.heading {
+  font-size: 25px;
+  margin-right: 25px;
+}
+
+.fa {
+  font-size: 25px;
+}
+
+.checked {
+  color: orange;
+}
+
+/* Three column layout */
+.side {
+  float: left;
+  width: 15%;
+  margin-top:10px;
+}
+
+.middle {
+  margin-top:10px;
+  float: left;
+  width: 70%;
+}
+
+/* Place text to the right */
+.right {
+  text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The bar container */
+.bar-container {
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+
+/* Individual bars */
+.bar-5 {width: 60%; height: 18px; background-color: #04AA6D;}
+.bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
+.bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+.bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+.bar-1 {width: 15%; height: 18px; background-color: #f44336;}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 400px) {
+  .side, .middle {
+    width: 100%;
+  }
+  .right {
+    display: none;
+  }
+}
+</style>
+</head>
+<body>
+
+<span class="heading">User Rating</span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<p>4.1 average based on 254 reviews.</p>
+<hr style="border:3px solid #f1f1f1">
+
+<div class="row">
+  <div class="side">
+    <div>5 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-5"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>150</div>
+  </div>
+  <div class="side">
+    <div>4 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-4"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>63</div>
+  </div>
+  <div class="side">
+    <div>3 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-3"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>15</div>
+  </div>
+  <div class="side">
+    <div>2 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-2"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>6</div>
+  </div>
+  <div class="side">
+    <div>1 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-1"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>20</div>
+  </div>
+</div>
+
+</body>
+</html>
+</body>
+</html> 
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+@media (max-width: 500px) {
+  .container {
+      text-align: center;
+  }
+  .container img {
+      margin: auto;
+      float: none;
+      display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>Our Reviews</h2>
+<div class="container">
+  <img src="https://media.istockphoto.com/id/1226386279/vector/vector-double-line-alternative-logo-letter-c.jpg?s=612x612&w=0&k=20&c=vstn9zTeMFjee-WY5G1KYX2expZMLpltpiDZkEgx1oI=" alt="Avatar" style="width:90px">
+  <center><p><span>Chris Fox.</span> Working adult.</p></center>
+  <center><p>I felt very lucky to have met mr David Peterson as he helped me to cope with my stress at work and taught me methods that can relieve stress.</p></center>
+</div>
+
+<div class="container">
+  <img src="https://www.shutterstock.com/image-vector/woman-head-icon-sign-stock-260nw-1520833295.jpg" alt="Avatar" style="width:80px">
+  <center><p><span>Rebecca Ng.</span> Student.</p></center>
+  <center><p>Mr Paul Ng is the best Counsellor that I have met and I felt safe sharing my issues with him.</p></center>
+</div>
+
+<div class="container">
+  <img src="https://www.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png" alt="Avatar" style="width:90px">
+  <center><p><span>Thomas Lim.</span> Retired Teacher.</p></center>
+  <center><p>Mr Dave Lim has helped to to think more positively about retirement as I used to think that retirement means wasting time as i am not doing anything productive but i am thankful to Mr Lim as he helped me to think about retirement in a more positive way.</p></center>
+</div>
+
+<div class="container">
+  <img src="https://www.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png" alt="Avatar" style="width:90px">
+  <center><p><span>Lee kah teck.</span>elderly.</p></center>
+  <center><p>I used to feel very lonely as all my relative have already passed on and i am not married but after meeting Mr Mark Tan,I feel more optimistic about life as he helped me to be able to see things in a more positive light.</p></center>
+</div>
+</body>
+</html>
+
+<!DOCTYPE html>
    <html>
    <body>
    
@@ -24,11 +237,9 @@
    
    </body>
    </html> 
-
-</html>
 <style>
-body {
-  
-  background-image: url('https://img.freepik.com/free-vector/beautiful-white-bokeh-lights-effect-background_1017-24052.jpg?w=2000');
-  
-}
+  body {
+    
+    background-image: url('https://img.freepik.com/free-vector/beautiful-white-bokeh-lights-effect-background_1017-24052.jpg?w=2000');
+    
+  }
