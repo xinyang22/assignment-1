@@ -29,6 +29,5 @@ You should be able to show how the project looks and works on different browsers
 
 
 
-Credits:W3 school.
-Media:The photos used in this site were obtained from google.
+
 Acknowledgements:I received inspiration for this project from people around me and also from the mental health campaign that have been going on in singapore.
