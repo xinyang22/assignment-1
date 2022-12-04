@@ -1,2 +1,38 @@
 # assignment-1
 This website provides users with potential solutions to their life problems and is designed to help users of all ages. The goal of this website is to ensure that users do not need to become frustrated about their problems any longer because we will assist them in finding the solution, and we hope that the users will be able to go about their daily lives more contentedly.
+Design Process
+This design of the website is focus on people who really need help with life issue and it is targeted to help them overcome their issues through our cousellors
+
+
+As a user type, I want to book a cousellor so that I can find solutions to my life issues.
+
+
+Features
+I included a navigation bar on the home page and it is responsive which means that is will be able to shrink and fit on mobile view .
+
+
+Existing Features
+Feature 1 -A form that allows users to give their feedback and also make bookings
+...
+In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+
+Features Left to Implement:be able to validate the feedback form so users know that they have already submitted the form
+
+In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+
+
+Testing
+For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+
+feedback form:
+Go to the "feedback form" page
+You should be able to show how the project looks and works on different browsers and screen sizes.
+
+
+
+Credits
+W3 school
+Media
+The photos used in this site were obtained from google
+Acknowledgements
+I received inspiration for this project from people around me and also from the mental health campaign that have been going on in singapore.
