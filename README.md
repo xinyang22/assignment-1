@@ -14,11 +14,10 @@ I included a navigation bar on the home page and it is responsive which means th
 Existing Features
 Feature 1 -A form that allows users to give their feedback and also make bookings
 ...
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 Features Left to Implement:be able to validate the feedback form so users know that they have already submitted the form
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+
 
 
 Testing
@@ -30,9 +29,6 @@ You should be able to show how the project looks and works on different browsers
 
 
 
-Credits
-W3 school
-Media
-The photos used in this site were obtained from google
-Acknowledgements
-I received inspiration for this project from people around me and also from the mental health campaign that have been going on in singapore.
+Credits:W3 school
+Media:The photos used in this site were obtained from google
+Acknowledgements:I received inspiration for this project from people around me and also from the mental health campaign that have been going on in singapore.
