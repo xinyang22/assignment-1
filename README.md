@@ -7,25 +7,25 @@ This design of the website is focus on people who really need help with life iss
 As a user type, I want to book a cousellor so that I can find solutions to my life issues.
 
 
-Features
+Features:
 I included a navigation bar on the home page and it is responsive which means that is will be able to shrink and fit on mobile view .
 
 
-Existing Features
-Feature 1 -A form that allows users to give their feedback and also make bookings
-...
-
-Features Left to Implement:be able to validate the feedback form so users know that they have already submitted the form
+Existing Features:
+Feature 1 -A form that allows users to give their feedback and also make bookings.
 
 
+Features Left to Implement: Being able to validate the feedback form so users know that they have already submitted the form
 
 
-Testing
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
-feedback form:
+
+Testing:
+
+
+[feedback form:
 Go to the "feedback form" page
-You should be able to show how the project looks and works on different browsers and screen sizes.
+You should be able to show how the project looks and works on different browsers and screen sizes.]
 
 
 
