@@ -4,7 +4,7 @@ Design Process
 This design of the website is focus on people who really need help with life issue and it is targeted to help them overcome their issues through our cousellors
 
 
-As a user type, I want to book a cousellor so that I can find solutions to my life issues.
+As a user, I want to book a cousellor so that I can find solutions to my life issues.
 
 
 Features:
@@ -24,7 +24,7 @@ Testing:
 
 
 [feedback form:
-Go to the "feedback form" page
+Go to the "Home" page
 You should be able to show how the project looks and works on different browsers and screen sizes.]
 
 
